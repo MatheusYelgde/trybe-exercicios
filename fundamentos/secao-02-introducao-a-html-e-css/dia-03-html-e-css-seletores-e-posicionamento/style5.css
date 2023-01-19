@@ -1,0 +1,53 @@
+li{
+    font-size: 20px;
+}
+ol li.italico{
+   font-weight: bolder;
+   background-color: yellow;
+   }
+ol li.par{
+    color: green;
+}   
+ol li.impar{
+    text-transform: uppercase;
+}
+h1 , h3{
+color: red;
+}
+ul, ol.em{
+ 
+  font-size: 20px;
+}
+h1,h3.italico{   
+border: 1px solid black;   
+font-size: 40px;
+}
+
+.azul {
+    color: blue;
+  }
+
+ .java{
+    background-color: pink;
+ } 
+ 
+ #stack:hover{
+  font-weight: bolder;
+  color: orange
+}
+#w3:hover{
+    font-weight: bolder;
+    color: green
+  }
+  #devel:hover{
+    font-weight: bolder;
+    color: black
+  }
+  #dev:hover{
+    font-weight: bolder;
+    color:yellow
+  }
+  #tryb:hover{
+    font-weight: bolder;
+    color: green
+  }
