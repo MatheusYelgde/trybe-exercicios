@@ -41,25 +41,25 @@
 //     console.log('Zero');
 // }
  
-        // Exercício 5
+        // Exercício 4
 
 
-const t1 = 60
-const t2 = -15
-const t3 = 60
+// const t1 = 60
+// const t2 = -15
+// const t3 = 60
 
-if (t1 + t2 + t3 === 180) {
-    console.log('True');
-} else if (t1 + t2 + t3 !== 180 && t1 >= 0 && t2 >= 0 && t3 >= 0) {
-    console.log('False');
-} else {
-    console.log('Ângulo Inválido');
-}
-
-
+// if (t1 + t2 + t3 === 180) {
+//     console.log('True');
+// } else if (t1 + t2 + t3 !== 180 && t1 >= 0 && t2 >= 0 && t3 >= 0) {
+//     console.log('False');
+// } else {
+//     console.log('Ângulo Inválido');
+// }
 
 
-      // Exercício 4
+
+
+      // Exercício 5
 
 // let peca = 'Rei'
 
@@ -81,6 +81,16 @@ if (t1 + t2 + t3 === 180) {
 
         
 
+        // Exercício 7
 
+const n1 = 11
+const n2 = 17
+const n3 = 17
+
+if (n1 % 2 === 0 || n2 % 2 === 0 || n3 % 2 === 0){
+    console.log('true');
+} else {
+    console.log('false');
+}
 
 
