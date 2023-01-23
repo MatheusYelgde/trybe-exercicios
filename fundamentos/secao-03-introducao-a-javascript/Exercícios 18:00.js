@@ -40,24 +40,47 @@
 // } else {
 //     console.log('Zero');
 // }
-
-        // Exercício 4
-
-let peca = 'Rei'
+ 
+        // Exercício 5
 
 
-switch (peca.toLowerCase()) {
-    case 'rainha': console.log('Diagonal, horizontal e vertical.');
-        
-        break;
-    case 'rei': console.log('Qualquer Direção');
-        
-        break;   
-    case 'Bispo': console.log('Diagonal');
-        
-        break;
-    case 'Peão': console.log('Apenas uma casa para frente');
-       
-        break;     
+const t1 = 60
+const t2 = -15
+const t3 = 60
+
+if (t1 + t2 + t3 === 180) {
+    console.log('True');
+} else if (t1 + t2 + t3 !== 180 && t1 >= 0 && t2 >= 0 && t3 >= 0) {
+    console.log('False');
+} else {
+    console.log('Ângulo Inválido');
 }
+
+
+
+
+      // Exercício 4
+
+// let peca = 'Rei'
+
+
+// switch (peca.toLowerCase()) {
+//     case 'rainha': console.log('Diagonal, horizontal e vertical.');
+        
+//         break;
+//     case 'rei': console.log('Qualquer Direção');
+        
+//         break;   
+//     case 'Bispo': console.log('Diagonal');
+        
+//         break;
+//     case 'Peão': console.log('Apenas uma casa para frente');
+       
+//         break;     
+// }
+
+        
+
+
+
 
