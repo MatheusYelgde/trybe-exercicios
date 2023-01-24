@@ -22,3 +22,12 @@ if (media > 20){
 } else {
     console.log('Valor menor ou igual a 20');
 }
+
+        //Exercício 5
+
+let maiorNumero = 0
+
+for(index = 0 ; index < numbers.length ; index+= 1)
+ maiorNumero =  Math.max(...numbers);
+ console.log(maiorNumero);
+ 
