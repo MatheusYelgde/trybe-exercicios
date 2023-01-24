@@ -31,3 +31,32 @@ for(index = 0 ; index < numbers.length ; index+= 1)
  maiorNumero =  Math.max(...numbers);
  console.log(maiorNumero);
  
+         //Exercício 6
+
+        
+let result = 0;
+         
+for (let index = 0; index < numbers.length; index += 1) {
+    if (numbers[index] % 2 !== 0) {
+        result += 1;
+    }
+}
+         
+if (result === 0) {
+console.log('nenhum valor ímpar encontrado');
+} else {
+console.log(result);
+}
+         
+
+
+
+
+        //Exercício 7
+
+let menorNumero = 0
+
+for(index = 0 ; index < numbers.length ; index+= 1)
+menorNumero =  Math.min(...numbers);
+console.log(menorNumero);
+
