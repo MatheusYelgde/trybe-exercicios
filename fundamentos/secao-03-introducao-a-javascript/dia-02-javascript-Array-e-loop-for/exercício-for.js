@@ -77,10 +77,14 @@ let div = []
 
 for (let index = 0; index < numeros.length; index += 1){
  
-        div = numeros[index] / 2
+        div.push(numeros[index] / 2)
 
  console.log(div);
 }
 
 
 
+         //Exercício 10
+
+
+console.log(div);
