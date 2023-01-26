@@ -1,3 +1,6 @@
+      // Exercício 1
+
+
 let info = {
     personagem: 'Margarida',
     origem: 'Pato Donald',
@@ -5,3 +8,16 @@ let info = {
   };
 
   console.log('Boas vindas, ',info.personagem);
+
+      // Exercício 2
+
+ info.recorrente = 'Sim'
+ console.log(info);
+
+      // Exercício 3
+
+ for(let key in info){
+   console.log(key);
+ }     
+
+      // Exercício 4
