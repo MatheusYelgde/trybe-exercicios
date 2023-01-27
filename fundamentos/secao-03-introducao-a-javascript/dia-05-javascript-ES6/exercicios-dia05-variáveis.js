@@ -26,4 +26,34 @@
 
 // let favoriteFood = 'Lasanha';
 // favoriteFood = 'Hamburguer';
-// console.log(favoriteFood);         
+// console.log(favoriteFood);
+
+         // Exercício 4
+
+// const name = 'Adriana';
+// const lastName = 'Soares';
+// console.log(`Olá ${name} ${lastName}!`);
+// function soma(a,b) {
+// let resultado = a + b;
+// return resultado;
+// }
+// let a = 3;
+// let b = 5;
+// console.log(`O resultado da soma de ${a} + ${b} é: ${soma(a,b)}`);      
+
+        // Exercício 5
+ 
+// const numeroAleatorio = () => Math.random()
+// console.log(numeroAleatorio()); 
+
+
+        // Exercício 6
+
+   
+   const hello = (nome) => nome
+   let nome = 'Victoria'     
+   console.log(`Olá, ${nome}`); 
+
+        // Exercício 7
+
+        
