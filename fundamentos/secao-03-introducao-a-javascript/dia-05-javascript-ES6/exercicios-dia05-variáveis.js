@@ -50,10 +50,38 @@
         // Exercício 6
 
    
-   const hello = (nome) => nome
-   let nome = 'Victoria'     
-   console.log(`Olá, ${nome}`); 
+//    const hello = (nome) => nome
+//    let nome = 'Victoria'     
+//    console.log(`Olá, ${nome}`); 
 
         // Exercício 7
-
         
+// let nome = 'Matheus';
+// let sobrenome = 'Yelgde';
+//  const nomeCompleto = (nome, sobrenome) => `${nome} ${sobrenome}`
+//  console.log(nomeCompleto(nome, sobrenome));  
+ 
+
+        // Exercício 8
+ 
+let speed = 90;
+
+const speedCar = (speed) => (
+speed >= 120 ? `Você ultrapassou o limite de velocidade` : `Você está na velocidade permitida`
+console.log(speedcar(speed));
+)
+     
+    
+    
+//     if (speed >= 120) {
+//     return `Você ultrapassou o limite de velocidade`;
+//     } else {
+//     return `Você está na velocidade permitida`;
+//     }
+// };
+// console.log(speedCar(speed));    
+
+
+
+
+          
