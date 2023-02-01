@@ -20,6 +20,32 @@
         elementSection.className = 'center-content';
         elementMain.appendChild(elementSection);
 
+        const elementP = document.createElement('p');
+        elementP.innerText = "Let's Trip"
+        elementSection.appendChild(elementP);
+
+        const elementSection2 = document.createElement('section');
+        elementSection2.className = 'left-content';
+        elementMain.appendChild(elementSection2);
+
+        const elementSection3 = document.createElement('section');
+        elementSection3.className = 'right-content';
+        elementMain.appendChild(elementSection3);
+
+        const img = document.createElement('IMG');
+        img.src = "https://picsum.photos/200";
+        elementSection2.appendChild(img);
+
+        const lista = document.createElement('ul');
+        elementSection3.appendChild(lista)
+        const arrayNumbers = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis',
+        'Sete', 'Oito', 'Nove', 'Dez']
+        for(let num in arrayNumbers){
+        const elementLi = document.createElement('li')
+        elementLi.innerText = arrayNumbers[num]
+        lista.appendChild(elementLi)
+        }
+
     </script>
     </body>
 </html>
